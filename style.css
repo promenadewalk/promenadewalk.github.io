@@ -1,0 +1,35 @@
+body, html {
+    margin: 75px;
+    background-color: #f0f2f1;
+}
+
+.container p {
+    font-size: 65px;
+    color: black;
+    font-family: 'Indie Flower', cursive;
+    text-align: center;
+    margin: 25px;
+}
+
+.grid {
+    display: grid;
+    grid-template-columns: repeat(3, 1fr);
+    grid-template-rows: auto;
+    grid-gap: 50px;
+}
+
+.social-vk {
+    justify-self: right;
+}
+
+.social-inst {
+    justify-self: center;
+}
+
+.social-gh {
+    justify-self: left;
+}
+
+.social:hover {
+    opacity: 0.5;
+}
